@@ -64,18 +64,13 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="Form4_VentanaPreguntas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="Form4_VentanaPreguntas.Designer.cs">
+      <DependentUpon>Form4_VentanaPreguntas.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormVentanaPreguntas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormVentanaPreguntas.Designer.cs">
-      <DependentUpon>FormVentanaPreguntas.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Pregunta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -84,8 +79,8 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormVentanaPreguntas.resx">
-      <DependentUpon>FormVentanaPreguntas.cs</DependentUpon>
+    <EmbeddedResource Include="Form4_VentanaPreguntas.resx">
+      <DependentUpon>Form4_VentanaPreguntas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
