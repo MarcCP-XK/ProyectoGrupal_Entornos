@@ -20,6 +20,7 @@ namespace ProyectoPreguntas
         {
             InitializeComponent();
             numPregunta = 0;
+            labelPregunta.Parent = pictureboxImagen;
             cargaPreguntas();
         }
 
@@ -33,16 +34,16 @@ namespace ProyectoPreguntas
         private void cargaPreguntas()
         {
             preguntas = new Pregunta[10];
-            preguntas[0] = new Pregunta("¿Que color ves en la Imagen?", 3, "n.png", "Rojo", "Verde", "Azul", "Amarillo");
-            preguntas[1] = new Pregunta("¿1?", 3, "transparent.jpg", "Rojo", "Verde", "Azul", "Amarillo");
-            preguntas[2] = new Pregunta("¿2?", 3, "img.jpg", "Rojo", "Verde", "Azul", "Amarillo");
-            preguntas[3] = new Pregunta("¿3?", 3, "img.jpg", "Rojo", "Verde", "Azul", "Amarillo");
-            preguntas[4] = new Pregunta("¿4?", 3, "img.jpg", "Rojo", "Verde", "Azul", "Amarillo");
-            preguntas[5] = new Pregunta("¿5?", 3, "img.jpg", "Rojo", "Verde", "Azul", "Amarillo");
-            preguntas[6] = new Pregunta("¿6?", 3, "img.jpg", "Rojo", "Verde", "Azul", "Amarillo");
-            preguntas[7] = new Pregunta("¿Que color ves en la Imagen?", 3, "img.jpg", "Rojo", "Verde", "Azul", "Amarillo");
-            preguntas[8] = new Pregunta("¿Que color ves en la Imagen?", 3, "img.jpg", "Rojo", "Verde", "Azul", "Amarillo");
-            preguntas[9] = new Pregunta("¿Que color ves en la Imagen?", 3, "img.jpg", "Rojo", "Verde", "Azul", "Amarillo");
+            preguntas[0] = new Pregunta("¿Qué País tiene la Bandera más Antigua del Mundo?", 2, "banderas1.jpg", "Italia", "Dimamarca", "Grecia", "Rusia");
+            preguntas[1] = new Pregunta("Duró desde el S.X hasta principios del S.XIX:", 1, "banderas2.jpg", "Sacro Imperio Alemán", "Austria", "Imperio Bizantino", "Prusia");
+            preguntas[2] = new Pregunta("¿A qué País pertenece esta Bandera?", 2, "banderas3.jpg", "Andorra", "Ciudad del Vaticano", "Andorra", "Monaco");
+            preguntas[3] = new Pregunta("¿Cuál es el Único País del Mundo cuya Bandera no es Cuadrada?", 4, "banderas4.jpg", "India", "Senegal", "Finlandia", "Nepal");
+            preguntas[4] = new Pregunta("¿A qué País perteneció esta Bandera?", 3, "banderas5.jpg", "Banovina de Croacia", "Alemania Oriental", "RFS Yugoslavia", "Serbia");
+            preguntas[5] = new Pregunta("¿A qué País pertenececió esta Bandera?", 1, "banderas6.jpg", "Reino de Brasil", "Reino de Haití", "República Peruana", "Dominica");
+            preguntas[6] = new Pregunta("¿Esta bandera es muy conocida por su acto en la 2ª Guerra Mundial, ¿sabes cuál es?", 2, "banderas7.jpg", "Escocia", "Canadá", "Alaska", "Australia");
+            preguntas[7] = new Pregunta("¿A qué ex República Sovietica se corresponde esta Bandera?", 4, "banderas8.jpg", "Bielorrusia", "Ucrania", "Letonia", "Lituania");
+            preguntas[8] = new Pregunta("¿A qué País actual perteneció esta Bandera?", 3, "banderas9.jpg", "Albania", "Macedonia", "Grecia", "Bulgaria");
+            preguntas[9] = new Pregunta("¿Qué País histórico llegó a ocupar estos Territorios?", 1, "banderas10.jpg", "Polonia-Lituania", "Rumanía", "Zarato de Polonia", "Moscovia");
 
         }
 
