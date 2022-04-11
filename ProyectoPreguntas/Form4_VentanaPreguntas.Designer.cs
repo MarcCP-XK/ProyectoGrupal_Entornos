@@ -156,6 +156,7 @@ namespace ProyectoPreguntas
             this.Controls.Add(this.labelNumPregunta);
             this.Controls.Add(this.pictureboxImagen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "Form4_VentanaPreguntas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Preguntas";
