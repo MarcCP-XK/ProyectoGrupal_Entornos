@@ -110,7 +110,7 @@ namespace ProyectoPreguntas
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(609, 592);
+            this.ClientSize = new System.Drawing.Size(573, 494);
             this.Controls.Add(this.b_start);
             this.Controls.Add(this.txtb_password);
             this.Controls.Add(this.txtb_usuario);
