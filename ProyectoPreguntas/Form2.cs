@@ -54,5 +54,10 @@ namespace ProyectoPreguntas
 
             timerForm2.Stop();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

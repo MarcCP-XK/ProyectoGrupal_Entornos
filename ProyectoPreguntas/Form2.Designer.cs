@@ -55,22 +55,22 @@ namespace ProyectoPreguntas
             // lbl_usuario
             // 
             this.lbl_usuario.AutoSize = true;
-            this.lbl_usuario.Font = new System.Drawing.Font("Siemens Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lbl_usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.lbl_usuario.ForeColor = System.Drawing.Color.Blue;
             this.lbl_usuario.Location = new System.Drawing.Point(153, 364);
             this.lbl_usuario.Name = "lbl_usuario";
-            this.lbl_usuario.Size = new System.Drawing.Size(99, 22);
+            this.lbl_usuario.Size = new System.Drawing.Size(106, 24);
             this.lbl_usuario.TabIndex = 1;
             this.lbl_usuario.Text = "USUARIO:";
             // 
             // lbl_password
             // 
             this.lbl_password.AutoSize = true;
-            this.lbl_password.Font = new System.Drawing.Font("Siemens Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lbl_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.lbl_password.ForeColor = System.Drawing.Color.Blue;
             this.lbl_password.Location = new System.Drawing.Point(111, 402);
             this.lbl_password.Name = "lbl_password";
-            this.lbl_password.Size = new System.Drawing.Size(141, 22);
+            this.lbl_password.Size = new System.Drawing.Size(158, 24);
             this.lbl_password.TabIndex = 2;
             this.lbl_password.Text = "CONTRASEÑA:";
             // 
@@ -119,6 +119,7 @@ namespace ProyectoPreguntas
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form2";
             this.Text = "LOGIN";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
