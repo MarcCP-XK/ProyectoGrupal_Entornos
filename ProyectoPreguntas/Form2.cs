@@ -29,8 +29,8 @@ namespace ProyectoPreguntas
             if (txtb_usuario.Text == usuario & txtb_password.Text == password)
             {
 
-                Form3 f3 = new Form3();
-                f3.Show();
+                Form4 f4 = new Form4();
+                f4.Show();
 
                 Hide();
 
