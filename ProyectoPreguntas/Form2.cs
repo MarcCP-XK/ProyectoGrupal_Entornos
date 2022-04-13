@@ -15,12 +15,13 @@ namespace ProyectoPreguntas
 
         String usuario = "Admin";
         String password = "1234";
+        
 
         public Form2()
         {
             InitializeComponent();
 
-
+            comodin.Visible = false;
         }
 
         private void b_start_Click(object sender, EventArgs e)
@@ -28,10 +29,10 @@ namespace ProyectoPreguntas
             if (txtb_usuario.Text == usuario & txtb_password.Text == password)
             {
 
-                //Form1 f1 = new Form1();
-                //f1.Show();
+                Form3 f3 = new Form3();
+                f3.Show();
 
-                //Hide();
+                Hide();
 
             }
             else
@@ -42,7 +43,7 @@ namespace ProyectoPreguntas
                 timerForm2.Start();
                 timerForm2.Tick += new EventHandler(TimerEventProcessor);
 
-
+                comodin.Visible = true;
             }
         }
 

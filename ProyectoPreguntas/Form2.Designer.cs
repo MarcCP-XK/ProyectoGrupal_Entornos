@@ -38,7 +38,12 @@ namespace ProyectoPreguntas
             this.txtb_password = new System.Windows.Forms.TextBox();
             this.b_start = new System.Windows.Forms.Button();
             this.timerForm2 = new System.Windows.Forms.Timer(this.components);
+            this.comodin = new System.Windows.Forms.Panel();
+            this.lbl_comodin = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.comodin.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -104,6 +109,51 @@ namespace ProyectoPreguntas
             // 
             this.timerForm2.Interval = 3000;
             // 
+            // comodin
+            // 
+            this.comodin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.comodin.Controls.Add(this.label2);
+            this.comodin.Controls.Add(this.label1);
+            this.comodin.Controls.Add(this.lbl_comodin);
+            this.comodin.Location = new System.Drawing.Point(456, 249);
+            this.comodin.Name = "comodin";
+            this.comodin.Size = new System.Drawing.Size(130, 149);
+            this.comodin.TabIndex = 6;
+            this.comodin.Visible = false;
+            // 
+            // lbl_comodin
+            // 
+            this.lbl_comodin.AutoSize = true;
+            this.lbl_comodin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_comodin.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lbl_comodin.Location = new System.Drawing.Point(31, 13);
+            this.lbl_comodin.Name = "lbl_comodin";
+            this.lbl_comodin.Size = new System.Drawing.Size(69, 16);
+            this.lbl_comodin.TabIndex = 0;
+            this.lbl_comodin.Text = "Comodin";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(13, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Usu: Admin";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.Location = new System.Drawing.Point(14, 81);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(83, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Pass: 1234";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -111,6 +161,7 @@ namespace ProyectoPreguntas
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(609, 592);
+            this.Controls.Add(this.comodin);
             this.Controls.Add(this.b_start);
             this.Controls.Add(this.txtb_password);
             this.Controls.Add(this.txtb_usuario);
@@ -120,6 +171,8 @@ namespace ProyectoPreguntas
             this.Name = "Form2";
             this.Text = "LOGIN";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.comodin.ResumeLayout(false);
+            this.comodin.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -134,5 +187,9 @@ namespace ProyectoPreguntas
         private System.Windows.Forms.TextBox txtb_password;
         private System.Windows.Forms.Button b_start;
         private System.Windows.Forms.Timer timerForm2;
+        private System.Windows.Forms.Panel comodin;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_comodin;
     }
 }

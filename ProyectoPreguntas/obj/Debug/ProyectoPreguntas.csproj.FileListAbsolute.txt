@@ -9,3 +9,14 @@ C:\Users\ullup\Desktop\Ejercicios C#\Proyecto\ProyectoPreguntas\obj\Debug\Proyec
 C:\Users\ullup\Desktop\Ejercicios C#\Proyecto\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.csproj.CoreCompileInputs.cache
 C:\Users\ullup\Desktop\Ejercicios C#\Proyecto\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.exe
 C:\Users\ullup\Desktop\Ejercicios C#\Proyecto\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.pdb
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\bin\Debug\ProyectoPreguntas.exe.config
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\bin\Debug\ProyectoPreguntas.exe
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\bin\Debug\ProyectoPreguntas.pdb
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.csproj.AssemblyReference.cache
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.Form1.resources
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.Form2.resources
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.Properties.Resources.resources
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.csproj.GenerateResource.cache
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.csproj.CoreCompileInputs.cache
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.exe
+C:\Users\ullup\Desktop\Ejercicios C#\ProyectoGrupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.pdb
