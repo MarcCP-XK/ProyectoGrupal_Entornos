@@ -36,7 +36,7 @@ namespace ProyectoPreguntas
             preguntas = new Pregunta[10];
             preguntas[0] = new Pregunta("¿Qué País tiene la Bandera más Antigua del Mundo?", 2, "banderas1.jpg", "Italia", "Dimamarca", "Grecia", "Rusia");
             preguntas[1] = new Pregunta("Duró desde el S.X hasta principios del S.XIX:", 1, "banderas2.jpg", "Sacro Imperio Alemán", "Austria", "Imperio Bizantino", "Prusia");
-            preguntas[2] = new Pregunta("¿A qué País pertenece esta Bandera?", 2, "banderas3.jpg", "Andorra", "Ciudad del Vaticano", "Andorra", "Monaco");
+            preguntas[2] = new Pregunta("¿A qué País pertenece esta Bandera?", 2, "banderas3.jpg", "Andorra", "Ciudad del Vaticano", "Luxemburgo", "Monaco");
             preguntas[3] = new Pregunta("¿Cuál es el Único País del Mundo cuya Bandera no es Cuadrada?", 4, "banderas4.jpg", "India", "Senegal", "Finlandia", "Nepal");
             preguntas[4] = new Pregunta("¿A qué País perteneció esta Bandera?", 3, "banderas5.jpg", "Banovina de Croacia", "Alemania Oriental", "RFS Yugoslavia", "Serbia");
             preguntas[5] = new Pregunta("¿A qué País pertenececió esta Bandera?", 1, "banderas6.jpg", "Reino de Brasil", "Reino de Haití", "República Peruana", "Dominica");
