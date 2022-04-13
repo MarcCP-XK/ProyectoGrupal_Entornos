@@ -39,9 +39,9 @@ namespace ProyectoPreguntas
             this.b_start = new System.Windows.Forms.Button();
             this.timerForm2 = new System.Windows.Forms.Timer(this.components);
             this.comodin = new System.Windows.Forms.Panel();
-            this.lbl_comodin = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_comodin = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.comodin.SuspendLayout();
             this.SuspendLayout();
@@ -92,6 +92,7 @@ namespace ProyectoPreguntas
             this.txtb_password.Name = "txtb_password";
             this.txtb_password.Size = new System.Drawing.Size(155, 20);
             this.txtb_password.TabIndex = 4;
+            this.txtb_password.UseSystemPasswordChar = true;
             // 
             // b_start
             // 
@@ -104,6 +105,7 @@ namespace ProyectoPreguntas
             this.b_start.Size = new System.Drawing.Size(227, 84);
             this.b_start.TabIndex = 5;
             this.b_start.UseVisualStyleBackColor = true;
+            this.b_start.Click += new System.EventHandler(this.b_start_Click);
             // 
             // timerForm2
             // 
@@ -121,16 +123,16 @@ namespace ProyectoPreguntas
             this.comodin.TabIndex = 6;
             this.comodin.Visible = false;
             // 
-            // lbl_comodin
+            // label2
             // 
-            this.lbl_comodin.AutoSize = true;
-            this.lbl_comodin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_comodin.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lbl_comodin.Location = new System.Drawing.Point(31, 13);
-            this.lbl_comodin.Name = "lbl_comodin";
-            this.lbl_comodin.Size = new System.Drawing.Size(69, 16);
-            this.lbl_comodin.TabIndex = 0;
-            this.lbl_comodin.Text = "Comodin";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.Location = new System.Drawing.Point(14, 81);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(83, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Pass: 1234";
             // 
             // label1
             // 
@@ -143,16 +145,16 @@ namespace ProyectoPreguntas
             this.label1.TabIndex = 1;
             this.label1.Text = "Usu: Admin";
             // 
-            // label2
+            // lbl_comodin
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(14, 81);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Pass: 1234";
+            this.lbl_comodin.AutoSize = true;
+            this.lbl_comodin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_comodin.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lbl_comodin.Location = new System.Drawing.Point(31, 13);
+            this.lbl_comodin.Name = "lbl_comodin";
+            this.lbl_comodin.Size = new System.Drawing.Size(69, 16);
+            this.lbl_comodin.TabIndex = 0;
+            this.lbl_comodin.Text = "Comodin";
             // 
             // Form2
             // 
@@ -169,6 +171,7 @@ namespace ProyectoPreguntas
             this.Controls.Add(this.lbl_usuario);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOGIN";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.comodin.ResumeLayout(false);

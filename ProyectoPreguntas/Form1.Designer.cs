@@ -65,6 +65,7 @@ namespace ProyectoPreguntas
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 300;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // label2
             // 
@@ -120,6 +121,7 @@ namespace ProyectoPreguntas
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash Screen";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

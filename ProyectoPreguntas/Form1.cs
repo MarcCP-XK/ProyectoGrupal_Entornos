@@ -19,19 +19,18 @@ namespace ProyectoPreguntas
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            
-                progressBar1.Increment(4);
-                label1.Text = progressBar1.Value.ToString() + "%";
+            progressBar1.Increment(4);
+            label1.Text = progressBar1.Value.ToString() + "%";
 
-                if (progressBar1.Value == progressBar1.Maximum)
-                {
-                    timer1.Stop();
-                    this.Hide();
-                    Form2 frmlogin = new Form2();
-                    frmlogin.ShowDialog();
+            if (progressBar1.Value == progressBar1.Maximum)
+            {
+                timer1.Stop();
+                this.Hide();
+                Form2 frmlogin = new Form2();
+                frmlogin.ShowDialog();
 
-                }
             }
         }
     }
+}
 

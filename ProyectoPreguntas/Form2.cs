@@ -39,7 +39,7 @@ namespace ProyectoPreguntas
             {
                 txtb_usuario.BackColor = Color.Red;
                 txtb_password.BackColor = Color.Red;
-                pictureBox1.Image = Image.FromFile(@"..\..\..\imagenes\noPuedesPasar.jpg");
+                pictureBox1.Image = Image.FromFile(@"..\..\imagenes\noPuedesPasar.jpg");
                 timerForm2.Start();
                 timerForm2.Tick += new EventHandler(TimerEventProcessor);
 
@@ -49,9 +49,12 @@ namespace ProyectoPreguntas
 
         private void TimerEventProcessor(Object myObject, EventArgs myEventArgs)
         {
-            pictureBox1.Image = Image.FromFile(@"..\..\..\imagenes\usuarioInterrogante.jpg");
+            pictureBox1.Image = Image.FromFile(@"..\..\imagenes\usuario.jpg");
             txtb_usuario.BackColor = SystemColors.Window;
             txtb_password.BackColor = SystemColors.Window;
+            txtb_usuario.Text = "";
+            txtb_password.Text = "";
+
 
             timerForm2.Stop();
         }
