@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,12 +53,11 @@ namespace ProyectoPreguntas
             labelTiempo.Text = "8";
             labelPregunta.Text = preguntas[numPregunta].TxtPregunta;
             try{
-                pictureboxImagen.Image = Image.FromFile(@"C:\Users\Kiko\OneDrive\Desktop\Proyecto Grupal\ProyectoPreguntas\imagenes\ImagenesPreguntas\" + preguntas[numPregunta].Img);
+                pictureboxImagen.Image = Image.FromFile(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\imagenes\ImagenesPreguntas\"  + preguntas[numPregunta].Img);
             }
             catch (Exception)
             {
-
-                pictureboxImagen.Image = Image.FromFile(@"C:\Users\Kiko\OneDrive\Desktop\Proyecto Grupal\ProyectoPreguntas\imagenes\ImagenesPreguntas\transparent.jpg");
+                pictureboxImagen.Image = Image.FromFile(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + @"\imagenes\ImagenesPreguntas\transparent.jpg");
             }
             
             buttonRespuesta1.Text = preguntas[numPregunta].Respuesta1;
@@ -127,9 +127,11 @@ namespace ProyectoPreguntas
             }
             else
             {
+                //Abrir pantalla resultado de las preguntas
+                Form3 f3 = new Form3();
+                f3.Show();
 
-                //Abrir pantalla resultado
-                this.Close();
+                Hide();
             }
             
 

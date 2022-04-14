@@ -21,3 +21,15 @@ C:\Users\Kiko\OneDrive\Desktop\Proyecto Grupal\ProyectoPreguntas\obj\Debug\Proye
 C:\Users\Kiko\OneDrive\Desktop\Proyecto Grupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.exe
 C:\Users\Kiko\OneDrive\Desktop\Proyecto Grupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.pdb
 C:\Users\Kiko\OneDrive\Desktop\Proyecto Grupal\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.Form4_VentanaPreguntas.resources
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\bin\Debug\ProyectoPreguntas.exe.config
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\bin\Debug\ProyectoPreguntas.exe
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\bin\Debug\ProyectoPreguntas.pdb
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.csprojAssemblyReference.cache
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.Form1.resources
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.Form2.resources
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.Form4_VentanaPreguntas.resources
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.Properties.Resources.resources
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.csproj.GenerateResource.cache
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.csproj.CoreCompileInputs.cache
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.exe
+D:\Módulo Informática\Entornos de Desarrollo\Curso del Instituto\Actividades\Tema 6 Git\Proyecto Main\ProyectoPreguntas\obj\Debug\ProyectoPreguntas.pdb
